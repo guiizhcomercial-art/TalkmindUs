@@ -1,0 +1,19 @@
+<!-- TalkMind Logo SVG -->
+<svg width="260" height="260" viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="talkmindGradient" x1="0" y1="0" x2="260" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer rounded shape -->
+  <rect x="10" y="10" width="240" height="240" rx="50" fill="url(#talkmindGradient)"/>
+
+  <!-- Chat bubble outline -->
+  <path d="M75 70h110c20 0 35 15 35 35v50c0 20-15 35-35 35H115l-40 30v-30c-20 0-35-15-35-35v-50c0-20 15-35 35-35z" stroke="white" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Mind pulse / waves -->
+  <path d="M110 120c10-20 30-20 40 0" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <path d="M100 140c20-30 50-30 70 0" stroke="white" stroke-width="8" stroke-linecap="round"/>
+</svg>
